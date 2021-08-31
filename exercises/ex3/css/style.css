@@ -1,0 +1,367 @@
+* {
+    margin : 0;
+    padding: 0;
+}
+
+header,
+nav,
+footer {
+
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color          : white;
+
+}
+
+nav a:hover {
+    color: yellowgreen;
+}
+
+nav a {
+    font-family: lato;
+}
+
+header {
+
+    height          : 191px;
+    background-color: gray;
+    display         : flex;
+}
+
+#logo {
+    background-image : url("../images/logo.png");
+    background-repeat: no-repeat;
+    background-size  : cover;
+    align-self       : center;
+    margin           : 0 auto;
+
+    width : 98px;
+    height: 84px;
+
+}
+
+nav {
+
+    height          : 62px;
+    background-color: black;
+
+
+}
+
+
+nav>ul {
+    position   : relative;
+    display    : flex;
+    color      : white;
+    text-align : center;
+    line-height: 40px;
+    align-self : center;
+
+    width : 1000px;
+    margin: 0 auto;
+}
+
+
+li {
+
+    margin-top     : 11px;
+    list-style-type: none;
+    width          : 233px;
+    height         : 40px;
+
+}
+
+
+.selected {
+
+
+    background-color: rgb(15, 109, 216);
+}
+
+#wrapper {
+
+    width : 1000px;
+    margin: 0 auto;
+
+
+}
+
+
+main {
+    width           : 756px;
+    height          : 697px;
+    display         : flex;
+    background-color: white;
+    position        : relative;
+
+
+}
+
+.squares {
+    margin-top     : 24px;
+    display        : flex;
+    flex-wrap      : wrap;
+    width          : 235px;
+    height         : 235px;
+    align-content  : space-between;
+    justify-content: space-between;
+
+}
+
+.square {
+
+    background-color: rgb(235, 66, 66);
+    height          : 100px;
+    width           : 100px;
+
+
+}
+
+.squares2 {
+    position       : absolute;
+    display        : flex;
+    flex-wrap      : wrap;
+    width          : 235px;
+    height         : 235px;
+    align-content  : space-between;
+    justify-content: space-between;
+    right          : 24px;
+    bottom         : 24px;
+}
+
+
+
+
+
+aside {
+    width           : 244px;
+    height          : 697px;
+    background-color: rgb(180, 174, 174);
+    float           : right;
+    position        : relative;
+
+}
+
+aside>section {
+    width           : 148px;
+    height          : 59px;
+    background-color: tomato;
+    position        : absolute;
+    left            : 81px;
+    top             : 200px;
+}
+
+footer {
+
+    height          : 50px;
+    background-color: gray;
+}
+
+.content {
+
+    width : 1000px;
+    height: 782px;
+    margin: 0 auto;
+
+    padding-bottom: 50px;
+}
+
+.nav2 {
+    width           : 146px;
+    height          : 782px;
+    background-color: black;
+    float           : left;
+
+
+}
+
+.ul2 {
+
+    display       : flex;
+    flex-direction: column;
+    position      : relative;
+    margin        : 0 auto;
+
+
+}
+
+.ul2 li {
+    margin    : 0;
+    width     : 146px;
+    height    : 58px;
+    text-align: start;
+
+    padding-left: 10px;
+
+}
+
+
+#wrapper2 {
+
+    width : 854px;
+    height: 782px;
+    margin: 0 auto;
+    float : left;
+}
+
+.aside2 {
+    position: relative;
+    width   : 257px;
+    height  : 782px;
+    float   : left;
+
+}
+
+.aside2 .squares {
+
+    position: absolute;
+
+    left  : 11px;
+    bottom: 12px;
+
+}
+
+.aside2 .squares .square {
+    background-color: rgb(17, 97, 9);
+    ;
+
+}
+
+.main2 {
+    width           : 597px;
+    height          : 782px;
+    display         : flex;
+    position        : relative;
+    background-color: white;
+
+
+}
+
+.rectangle {
+
+    position       : absolute;
+    width          : 556px;
+    height         : 642px;
+    display        : flex;
+    flex-wrap      : wrap;
+    align-content  : space-between;
+    justify-content: space-between;
+    left           : 22px;
+
+}
+
+.rectangle section {
+
+    width           : 270px;
+    background-color: rgb(17, 97, 9);
+}
+
+.rec1 {
+
+    height    : 324px;
+    margin-top: 22px;
+}
+
+.rec2 {
+
+    height    : 254px;
+    margin-top: 22px;
+
+}
+
+.rec3 {
+    height    : 412px;
+    margin-top: 24px;
+}
+
+.rec4 {
+
+    height: 364px;
+
+
+    margin-top   : -44px;
+    margin-bottom: 93px;
+}
+
+.footer2 {
+    position: fixed;
+    height  : 50px;
+
+    bottom: 0%;
+
+}
+
+#wrapper3 {
+    width: 100%;
+   max-width : 1000px;
+   
+    margin: 0 auto;
+
+}
+
+#wrapper3 nav ul {
+
+    width: 100%;
+    max-width : 1000px;
+    
+    justify-content: center;
+
+}
+
+#wrapper3 nav ul li {
+
+
+
+
+    width      : 233px;
+    height     : 62px;
+    margin     : 0;
+    line-height: 62px;
+
+}
+#wrapper3 main{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+
+
+}
+#wrapper3  main > section{
+
+    width: 333px;
+    height: 348px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+#wrapper3  main > section >img{
+
+   align-self: center;
+
+}
+.stars{
+
+     
+     position: absolute;
+     right:  10px;
+     top: 8px;
+
+}
+.pluss{
+    background-image : url("../images/plus.png");
+    background-repeat: no-repeat;
+    background-size  : cover;
+    align-self       : center;
+    margin           : 0 auto;
+    width: 64px;
+    height: 64px;
+    cursor: pointer;
+}
+.clear {
+    clear: both;
+}

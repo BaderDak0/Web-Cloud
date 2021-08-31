@@ -1,0 +1,44 @@
+* {
+    margin : 0;
+    padding: 0;
+}
+
+
+#wrapper{
+
+    width: 1000px;
+    margin: 0 auto;
+
+}
+
+.temp{
+
+    margin-top: 5px;
+
+}
+a {
+    display: block;
+    position: absolute;
+    bottom: 0;
+}
+a {
+    display: block;
+    position: absolute;
+    bottom: 0;
+}
+ 
+#alertt{
+    display: none;
+    color: red;
+
+}
+
+.intro {
+    height: 100%;
+  }
+  
+ #subm{
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+ }
